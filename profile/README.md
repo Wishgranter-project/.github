@@ -26,13 +26,13 @@ particular medium or provider.
 
 The solution is to decouple the collection from the actual media. Instead of
 listing MP3 files or streaming URLs, define a playlist by what the music
-*is* — its title, artist, album, genre etc.
+*is*: its title, artist, album, genre etc.
 
 At the core is the **[Descriptive Playlist (DPLS)](https://github.com/Wishgranter-project/descriptive-playlist-definition)** 
 file format comes in. A DPLS file describes each entry by its metadata alone. 
 
 A player built for it can then resolve the actual audio from whichever source 
-has it available — local files, a streaming service, or elsewhere — without the 
+has it available, local files, a streaming service, or elsewhere, without the 
 playlist itself being aware of the source.
 
 The result is a music collection that outlives its current media, is portable
